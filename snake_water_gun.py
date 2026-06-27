@@ -33,7 +33,7 @@ user_choice = int(input("\nEnter your choice: "))
 
 # Validate user input
 if user_choice not in choice_name:
-    print("\n❌ Invalid choice! Please enter only 1, 0, or -1.")
+    print("\n Invalid choice! Please enter only 1, 0, or -1.")
     exit()
 
 # Display both choices
@@ -43,24 +43,24 @@ print(f"Computer Choice : {choice_name[computer_choice]}")
 
 # Decide the winner
 if computer_choice == user_choice:
-    print("\n🤝 Match Draw!")
+    print("\n Match Draw!")
 
 elif computer_choice == 1 and user_choice == 0:
-    print("\n💻 Computer Wins!")
+    print("\n Computer Wins!")
 
 elif computer_choice == 1 and user_choice == -1:
-    print("\n🎉 You Win!")
+    print("\n You Win!")
 
 elif computer_choice == 0 and user_choice == 1:
-    print("\n🎉 You Win!")
+    print("\n You Win!")
 
 elif computer_choice == 0 and user_choice == -1:
-    print("\n💻 Computer Wins!")
+    print("\n Computer Wins!")
 
 elif computer_choice == -1 and user_choice == 0:
-    print("\n💻 Computer Wins!")
+    print("\n Computer Wins!")
 
 elif computer_choice == -1 and user_choice == 1:
-    print("\n🎉 You Win!")
+    print("\n You Win!")
 
 print("\nThank you for playing! 😊")
