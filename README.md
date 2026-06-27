@@ -1,6 +1,6 @@
 # 🐍 Snake Water Gun Game
 
-Hey! 👋 This is my **first Python project** that I'm uploading to my GitHub profile. I created this project while learning Python to improve my programming logic and understand how conditional statements work in a real program.
+Hey! 👋 This is my **first Python project** that I'm uploading to my GitHub profile. I created this project while learning Python to improve my programming logic and understand how conditional statements work in a real program.q
 
 ##  About the Project
 
